@@ -54,7 +54,7 @@ This transaction defines the properties, metadata and freedrive itself.
     &lt;CID: 'pisa_n5oN'&gt; (1-64 bytes, ascii)<br/>	
     &lt;title: 'fchwallet'&gt; (1-64 bytes, ascii)<br/>	
     &lt;desc: 'freecash mobile wallet'&gt; (1-256 bytes)<br/>	
-    &lt;result: 'mobile wallet'&gt; (1-256 bytes, ascii)<br/>	
+    &lt;performance: 'mobile wallet'&gt; (1-256 bytes, ascii)<br/>	
     &lt;start_time: '20200210'&gt; (1-32 bytes, ascii)<br/>	
     &lt;end_time: '20200410'&gt; (1-32 bytes, ascii)<br/>	
     &lt;source: 'bbs.cash'&gt; (1-32 bytes, ascii)<br/>	    
