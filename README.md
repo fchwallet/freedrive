@@ -16,8 +16,8 @@ Freedrive on non-standard UTXOs,which can include any state of your services.
    <td>
    Lockingscript<sup>1</sup>: 'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
    OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br/>
-   &lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<br/>
-   &lt;type<sup>3</sup>:\x0000 &gt; (2 bytes integer)<br/>
+   &lt;protocol_id: 'FOCP\x00'&gt; (5 bytes, ascii)<br/>
+   &lt;type:\x0000 &gt; (2 bytes integer)<br/>
    &lt;data_hash: &gt; (32 bytes, sha256(data))<br/>
    &lt;metadata: &gt; (1 to ∞ bytes)<br/>
    &lt;key: &gt; (0 to ∞ bytes)<br/>
@@ -45,7 +45,6 @@ Freedrive on non-standard UTXOs,which can include any state of your services.
 
 <sup>1. The Lockscript can be any valid script by combination op_codes.(more [spec](https://github.com/bitcoin-sv-specs/protocol/blob/master/updates/genesis-spec.md)). </sup>   
 <sup>2. The OP_RETURN should be metadata & key managment for specific business. </sup>   
-<sup>3. see more [type](./slppp-type-index.md). </sup>   
 <sup>4. The OP_FALSE OP_RETURN vout should be common data for specific business. </sup>   
 
 ## Tools  

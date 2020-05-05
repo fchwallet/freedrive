@@ -30,8 +30,8 @@ This transaction defines the properties, metadata and freedrive itself.
    <td>
    lockingscript<sup>1</sup>: 'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
-   &lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<br/>
-   &lt;type<sup>2</sup>: '\x01\x02'&gt; (2 bytes integer)<br/>
+   &lt;protocol_id: 'FOCP\x00'&gt; (5 bytes, ascii)<br/>
+   &lt;type: '\x02\x01'&gt; (2 bytes integer)<br/>
    &lt;action: 'CREATE'&gt; (6 bytes, ascii)<br/>
    &lt;data_hash:&gt; (32 bytes, sha256(data))<br/>
    &lt;data_spec:&gt; (0 to 32 bytes ascii)<br/>
@@ -59,7 +59,7 @@ This transaction defines the properties, metadata and freedrive itself.
 </table>
 
 <sup>1. The lockingscript can be any valid script combination.  UPDATE & REMOVE's lockingscript are the same means</sup>   
-<sup>2. See more [type](../slppp-type-index.md)</sup>  
+
 
 ### UPDATE - Update Freedrive Transaction
   
