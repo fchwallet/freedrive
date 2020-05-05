@@ -1,6 +1,6 @@
 # Freedrive Protocol
 Layer II Protocol, Safety & Simple base on original  [SLP.](https://github.com/simpleledger/slp-specifications)  
-Freedrive on non-standard UTXOs,which can include any state of your services.      
+Freedrive operate on non-standard UTXOs,which can include any state of your services.      
 ## Transaction struture
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.  
