@@ -1,6 +1,6 @@
 # Freedrive Protocol Specification
 ### Specification version: 0.1
-### Date published: April 26, 2020
+### Date published: May 05, 2020
 ### Contributors: CY_vpAv, pisa_n5oN
 
 # PROTOCOL DESCRIPTION
