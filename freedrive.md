@@ -81,6 +81,7 @@ This transaction defines the properties, metadata and freedrive itself.
 &lt;action: 'UPDATE'&gt; (6 byte ascii)<BR>
 &lt;mark&gt; (0 to ∞ bytes)<BR>
 &lt;data_hash&gt; (32 bytes, sha256(data))<BR>
+&lt;data_spec:&gt; (0 to 32 bytes ascii)<br/>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
   <td>>0</td>
