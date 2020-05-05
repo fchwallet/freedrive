@@ -59,7 +59,7 @@ This transaction defines the properties, metadata and freedrive itself.
     &lt;end_time: '20200410'&gt; (1-32 bytes, ascii)<br/>	
     &lt;source: 'bbs.cash'&gt; (1-32 bytes, ascii)<br/>	    
     &lt;assistant_CID: '\x00'&gt; (1-64 bytes, ascii)<br/>	            
-    &lt;ref: &gt; '\x00'(1-256 bytes, ascii)<br/>	
+    &lt;ref: &gt; 'http://fchwallet.com#https://github.com/fchwallet'(1-256 bytes, ascii)<br/>	
     &lt;project I: 'cid tools'&gt; (1-256 bytes, ascii)<br/>	
     &lt;project II: 'freedrive'&gt; (1-256 bytes, ascii)<br/>	    
     &lt;category I: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
