@@ -1,4 +1,4 @@
-# SLP++ Blockdrive Protocol Specification
+# SLP++ Freedrive Protocol Specification
 ### Specification version: 0.1
 ### Date published: April 26, 2020
 
@@ -6,12 +6,12 @@
 
 ## Drive ID
 ```
-The blockdrive is identified by sha256 the create blockdrive transaction outputscript which can be regarded as `drive_id`.
+The freedrive is identified by sha256 the create freedrive transaction outputscript which can be regarded as `drive_id`.
 ```
 
 ## Transaction Detail
 
-### Create - Create Blockdrive Transaction
+### Create - Create Freedrive Transaction
 
 This transaction defines the properties, metadata and blockdrive itself. 
 
@@ -32,7 +32,6 @@ This transaction defines the properties, metadata and blockdrive itself.
    &lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<br/>
    &lt;type<sup>2</sup>: '\x01\x02'&gt; (2 bytes integer)<br/>
    &lt;action: 'CREATE'&gt; (6 bytes, ascii)<br/>
-   &lt;mark:&gt; (0  to  1024 bytes, ascii)<br/>
    &lt;data_hash:&gt; (32 bytes, sha256(data))<br/>
    &lt;data_spec:&gt; (0 to 32 bytes ascii)<br/>
    &lt;encrypt: '0' / '1'&gt; (1 byte integer)<br/>
@@ -104,7 +103,7 @@ This transaction defines the properties, metadata and blockdrive itself.
 </table>
 
 
-### REMOVE - Remove Blockdrive Transaction
+### REMOVE - Remove Freedrive Transaction
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.  
 **Transaction outputs**:
@@ -136,7 +135,7 @@ This transaction defines the properties, metadata and blockdrive itself.
 
 
 
-### PRUNE - Prune Blockdrive Transaction   
+### PRUNE - Prune Freedrive Transaction   
 PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(outputscript) can be prune.  
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.  
