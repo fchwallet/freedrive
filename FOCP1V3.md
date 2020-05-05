@@ -50,7 +50,7 @@ This transaction defines the properties, metadata and freedrive itself.
     <td>...</td>
     <td>
     OP_FALSE: '\x00'  (1 bytes, ascii)<br>
-    OP_RETURN: '\x6a' (1 bytes, ascii)<br>
+    OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br>
     &lt;CID: pisa_n5oN&gt; (1-64 bytes, ascii)<br/>	
     &lt;title: 'fchwallet'&gt; (1-64 bytes, ascii)<br/>	
     &lt;desc: 'freecash mobile wallet'&gt; (1-256 bytes)<br/>	
@@ -72,7 +72,7 @@ This transaction defines the properties, metadata and freedrive itself.
 </table>
 
 <sup>1. The lockingscript can be any valid script combination.  UPDATE & REMOVE's lockingscript are the same means</sup>   
-
+<sup>2. when some fields with 1 byte asscii: '\x00' , which mean paddings </sup>   
 
 ### UPDATE - Update Freedrive Transaction
   
