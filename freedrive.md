@@ -1,4 +1,4 @@
-# SLP++ Freedrive Protocol Specification
+# Freedrive Protocol Specification
 ### Specification version: 0.1
 ### Date published: April 26, 2020
 
@@ -13,7 +13,7 @@ The freedrive is identified by sha256 the create freedrive transaction outputscr
 
 ### Create - Create Freedrive Transaction
 
-This transaction defines the properties, metadata and blockdrive itself. 
+This transaction defines the properties, metadata and freedrive itself. 
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.
 
@@ -60,7 +60,7 @@ This transaction defines the properties, metadata and blockdrive itself.
 <sup>1. The lockingscript can be any valid script combination.  UPDATE & REMOVE's lockingscript are the same means</sup>   
 <sup>2. See more [type](../slppp-type-index.md)</sup>  
 
-### UPDATE - Update Blockdrive Transaction
+### UPDATE - Update Freedrive Transaction
   
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.  
 **Transaction outputs**:
@@ -171,25 +171,25 @@ PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(out
 
 ### Examples
 
-**CREATE Blockdrive Transaction**
+**CREATE Freedrive Transaction**
 
 blockchain transaction:  a26d3191f2be3dc7fffdfa95ad7dc1bc3614079ebd626e0d87b20d2502682647
 
 SCRIPT: ``006a04534c500001010747454e45534953045553445423546574686572204c74642e20555320646f6c6c6172206261636b656420746f6b656e734168747470733a2f2f7465746865722e746f2f77702d636f6e74656e742f75706c6f6164732f323031362f30362f546574686572576869746550617065722e70646620db4451f11eda33950670aaf59e704da90117ff7057283b032cfaec77793139160108010208002386f26fc10000``
 
-**UPDATE Blockdrive Transaction**
+**UPDATE Freedrive Transaction**
 
 blockchain transaction: 6b73adfbe7e5688c53ea4b09bf37de85dfd6dd4e3d38d1c0b4a5b38a9c0ca613
 
 SCRIPT: ``006a04534c50000101044d494e5420a26d3191f2be3dc7fffdfa95ad7dc1bc3614079ebd626e0d87b20d2502682647010208002386f26fc10000``
 
-**REMOVE Blockdrive Transaction**
+**REMOVE Freedrive Transaction**
 
 blockchain transaction: 6b73adfbe7e5688c53ea4b09bf37de85dfd6dd4e3d38d1c0b4a5b38a9c0ca613
 
 SCRIPT: ``006a04534c50000101044d494e5420a26d3191f2be3dc7fffdfa95ad7dc1bc3614079ebd626e0d87b20d2502682647010208002386f26fc10000``
 
-**PRUNE Blockdrive Transaction**
+**PRUNE Freedrive Transaction**
 
 blockchain transaction: 6b73adfbe7e5688c53ea4b09bf37de85dfd6dd4e3d38d1c0b4a5b38a9c0ca613
 
