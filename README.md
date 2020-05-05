@@ -45,8 +45,8 @@ Freedrive operate on non-standard UTXOs,which can include any state of your serv
 </table>
 
 <sup>1. The Lockscript can be any valid script by combination op_codes.(more [spec](https://github.com/bitcoin-sv-specs/protocol/blob/master/updates/genesis-spec.md)). </sup>   
-<sup>2. The OP_RETURN should be metadata & key managment for specific business. </sup>   
-<sup>4. The OP_FALSE OP_RETURN vout should be common data for specific business. </sup>   
+<sup>2. The OP_RETURN should be metadata for specific business. </sup>   
+<sup>4. The OP_FALSE OP_RETURN vout should be data itself for specific business. </sup>   
 
 ## Tools  
 coming soon
