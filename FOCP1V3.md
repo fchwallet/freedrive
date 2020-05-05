@@ -51,7 +51,7 @@ This transaction defines the properties, metadata and freedrive itself.
     <td>
     OP_FALSE: '\x00'  (1 bytes, ascii)<br>
     OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br>
-    &lt;CID: pisa_n5oN&gt; (1-64 bytes, ascii)<br/>	
+    &lt;CID: 'pisa_n5oN'&gt; (1-64 bytes, ascii)<br/>	
     &lt;title: 'fchwallet'&gt; (1-64 bytes, ascii)<br/>	
     &lt;desc: 'freecash mobile wallet'&gt; (1-256 bytes)<br/>	
     &lt;result: 'mobile wallet'&gt; (1-256 bytes, ascii)<br/>	
