@@ -76,8 +76,8 @@ This transaction defines the properties, metadata and freedrive itself.
   <td>
    lockingscript: 'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
-&lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<BR>
-&lt;type: '\x01\x02'&gt; (2 bytes integer)<br/>
+&lt;protocol_id: 'FOCP\x00'&gt; (6 bytes, ascii)<BR>
+&lt;type: '\x02\x01'&gt; (2 bytes integer)<br/>
 &lt;action: 'UPDATE'&gt; (6 byte ascii)<BR>
 &lt;mark&gt; (0 to ∞ bytes)<BR>
 &lt;data_hash&gt; (32 bytes, sha256(data))<BR>
@@ -120,8 +120,8 @@ This transaction defines the properties, metadata and freedrive itself.
   <td>
    lockingscript: 'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
-&lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<BR>
-&lt;type: '\x01\x02'&gt; (2 bytes integer)<br/>
+&lt;protocol_id: 'FOCP\x00'&gt; (5 bytes, ascii)<BR>
+&lt;type: '\x02\x01'&gt; (2 bytes integer)<br/>
 &lt;action: 'REMOVE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
@@ -153,8 +153,8 @@ PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(out
   <td>
    lockingscript: 'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
-&lt;protocol_id: 'SLP++\x00'&gt; (6 bytes, ascii)<BR>
-&lt;type: '\x01\x02'&gt; (2 bytes integer)<br/>
+&lt;protocol_id: 'FOCP\x00'&gt; (5 bytes, ascii)<BR>
+&lt;type: '\x02\x01'&gt; (2 bytes integer)<br/>
 &lt;action: 'PRUNE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
