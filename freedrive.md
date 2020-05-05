@@ -14,7 +14,7 @@ The freedrive is identified by sha256 the create freedrive transaction outputscr
 
 ### Create - Create Freedrive Transaction
 
-This transaction defines the properties, metadata and freedrive itself. 
+This transaction defines the metadata, and freedrive itself. 
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.
 
