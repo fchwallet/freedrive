@@ -54,16 +54,16 @@ This transaction defines the properties, metadata and freedrive itself.
     &lt;CID: pisa_n5oN&gt; (1-64 bytes, ascii)<br/>	
     &lt;title: 'fchwallet'&gt; (1-64 bytes, ascii)<br/>	
     &lt;desc: 'freecash mobile wallet'&gt; (1-256 bytes)<br/>	
-    &lt;result: 'mobile wallet'&gt; (1-256 bytes)<br/>	
-    &lt;start_time: '20200210'&gt; (1-32 bytes)<br/>	
-    &lt;end_time: '20200410'&gt; (1-32 bytes)<br/>	
-    &lt;source: 'bbs.cash'&gt; (6 bytes)<br/>	    
-    &lt;assistant_CID: '\x00'&gt; (1-64 bytes)<br/>	            
-    &lt;ref: &gt; '\x00'(1-256 bytes)<br/>	
-    &lt;project I: 'cid tools'&gt; (1-256bytes)<br/>	
-    &lt;project II: 'freedrive'&gt; (1-256 bytes)<br/>	    
-    &lt;category I: 'infrastructure'&gt; (1-256 bytes)<br/>	
-    &lt;category II: 'infrastructure'&gt; (1-256 bytes)<br/>	
+    &lt;result: 'mobile wallet'&gt; (1-256 bytes, ascii)<br/>	
+    &lt;start_time: '20200210'&gt; (1-32 bytes, ascii)<br/>	
+    &lt;end_time: '20200410'&gt; (1-32 bytes, ascii)<br/>	
+    &lt;source: 'bbs.cash'&gt; (1-32 bytes, ascii)<br/>	    
+    &lt;assistant_CID: '\x00'&gt; (1-64 bytes, ascii)<br/>	            
+    &lt;ref: &gt; '\x00'(1-256 bytes, ascii)<br/>	
+    &lt;project I: 'cid tools'&gt; (1-256 bytes, ascii)<br/>	
+    &lt;project II: 'freedrive'&gt; (1-256 bytes, ascii)<br/>	    
+    &lt;category I: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
+    &lt;category II: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
     &lt;leading: '1'&gt; (1 bytes integer)<br/>	
     </td>
     <td>0</td>
