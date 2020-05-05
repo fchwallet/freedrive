@@ -35,7 +35,7 @@ This transaction defines the properties, metadata and freedrive itself.
    &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>
    &lt;action: 'CREATE'&gt; (6 bytes, ascii)<br/>
    &lt;data_hash:&gt; (32 bytes, sha256(data))<br/>
-   &lt;encrypt: '0' / '1'&gt; (1 byte integer)<br/>
+   &lt;encrypt: '0' or '1'&gt; (1 byte integer)<br/>
    &lt;encrypted_pwd: (4 to 32 bytes ascii,if encrypt is true)<br/>
    <td>>0</td>
   </tr>
@@ -64,7 +64,7 @@ This transaction defines the properties, metadata and freedrive itself.
     &lt;project II: 'freedrive'&gt; (1-256 bytes, ascii)<br/>	    
     &lt;category I: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
     &lt;category II: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
-    &lt;leading: '1'&gt; (1 bytes integer)<br/>	
+    &lt;leading: '0' or '1'&gt; (1 bytes integer)<br/>	
     </td>
     <td>0</td>
   </tr>
