@@ -20,8 +20,8 @@ Freedrive operate on non-standard UTXOs,which can include any state of your serv
    &lt;protocol_id: '\x02'&gt; (1 to 16 bytes integer)<br/>
    &lt;protocol_version: '\x01'&gt; (1 to 16 bytes integer)<br/>
    &lt;data_hash: &gt; (32 bytes, sha256(data))<br/>
-   &lt;metadata: &gt; (1 to ∞ bytes)<br/>
-   &lt;key: &gt; (0 to ∞ bytes)<br/>
+   &lt;encrypt: '0' / '1'&gt; (1 byte integer)<br/>
+   &lt;encrypted_pwd: (4 to 32 bytes ascii,if encrypt is true)<br/>
    </td>
    <td>>0</td>
   </tr>
