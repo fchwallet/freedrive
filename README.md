@@ -1,7 +1,6 @@
-# SLP++ Layer II Protocol
+# Freedrive Protocol
 Layer II Protocol, Safety & Simple base on original  [SLP.](https://github.com/simpleledger/slp-specifications)  
-SLP++ operate on non-standard UTXOs,which can include any state of your services.      
-Layer II's services are identified by transaction outputscripts, which convert to script level from transaction level. 
+Freedrive on non-standard UTXOs,which can include any state of your services.      
 ## Transaction struture
 
 **Transaction inputs**: Any number of inputs or content of inputs, in any order.  
@@ -48,23 +47,6 @@ Layer II's services are identified by transaction outputscripts, which convert t
 <sup>2. The OP_RETURN should be metadata & key managment for specific business. </sup>   
 <sup>3. see more [type](./slppp-type-index.md). </sup>   
 <sup>4. The OP_FALSE OP_RETURN vout should be common data for specific business. </sup>   
-
-
-## SLP++ Protocol
-The complete Protocol see [more](./slppp-type-index.md)      
-
-### [Common](./common/)  
-
-### [Token](./token/)
-
-### [Enterprise](./enterprise/)  
-
-### [Health](./health/)  
-
-### [Education](./education/)  
-
-
-
 
 ## Tools  
 coming soon
