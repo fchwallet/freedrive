@@ -16,7 +16,7 @@ Freedrive operate on non-standard UTXOs,which can include any state of your serv
    <td>
    Lockingscript<sup>1</sup>: 'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
    OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br/>
-   &lt;protocol_id: 'FOCP\x00'&gt; (5 bytes, ascii)<br/>
+   &lt;protocol_id: 'FOCP\x00'&gt; (4 to 16 bytes, ascii)<br/>
    &lt;type:\x0000 &gt; (2 bytes integer)<br/>
    &lt;data_hash: &gt; (32 bytes, sha256(data))<br/>
    &lt;metadata: &gt; (1 to ∞ bytes)<br/>
