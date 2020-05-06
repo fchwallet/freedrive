@@ -95,8 +95,8 @@ This transaction defines the properties, metadata and freedrive itself.
    <b>metadata: </b></br>
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x02'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x01'&gt; (1 to 16 bytes integer)<br/>
+   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>
 &lt;action: 'UPDATE'&gt; (6 byte ascii)<BR>
 &lt;data_hash&gt; (32 bytes, sha256(data))<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
@@ -141,8 +141,8 @@ This transaction defines the properties, metadata and freedrive itself.
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    <b>metadata: </b><br/>
    &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x02'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x01'&gt; (1 to 16 bytes integer)<br/>   
+   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>   
 &lt;action: 'REMOVE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
@@ -177,8 +177,8 @@ PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(out
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    <b>metadata:</b><br/>
    &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x02'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x01'&gt; (1 to 16 bytes integer)<br/>      
+   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>      
 &lt;action: 'PRUNE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
