@@ -30,8 +30,8 @@ This transaction defines the properties, metadata and freedrive itself.
    <td>
    <b>Lockingscript<sup>1</sup></b>:</br>
    'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
-   <b>metadata:</b></br>
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
+   <b>metadata:</b></br>
    &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
    &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
    &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>
