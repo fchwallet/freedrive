@@ -54,20 +54,20 @@ This transaction defines the properties, metadata and freedrive itself.
     OP_FALSE: '\x00'  (1 bytes, ascii)<br>
     OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br>
    <b>data:</b></br>
-    &lt;CID: 'pisa_n5oN'&gt; (1-64 bytes, ascii)<br/>	
+    &lt;cid: 'pisa_n5oN'&gt; (1-64 bytes, ascii)<br/>	
     &lt;title: 'fchwallet'&gt; (1-64 bytes, ascii)<br/>	
     &lt;desc: 'freecash mobile wallet'&gt; (1-256 bytes)<br/>	
     &lt;performance: 'mobile wallet'&gt; (1-256 bytes, ascii)<br/>	
-    &lt;start_time: '20200210'&gt; (1-32 bytes, ascii)<br/>	
-    &lt;end_time: '20200410'&gt; (1-32 bytes, ascii)<br/>	
+    &lt;start_date: '20200210'&gt; (1-32 bytes, ascii)<br/>	
+    &lt;end_date: '20200410'&gt; (1-32 bytes, ascii)<br/>	
     &lt;source: 'bbs.cash'&gt; (1-32 bytes, ascii)<br/>	    
-    &lt;assistant_CID: '\x00'&gt; (1-64 bytes, ascii)<br/>	            
+    &lt;partners: '\x00'&gt; (1-64 bytes, ascii)<br/>	            
     &lt;ref: 'website: http://fchwallet.com, github: https://github.com/fchwallet'&gt; (1-256 bytes, ascii)<br/>	
     &lt;project I: 'cid tools'&gt; (1-256 bytes, ascii)<br/>	
     &lt;project II: 'freedrive'&gt; (1-256 bytes, ascii)<br/>	    
     &lt;category I: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
     &lt;category II: 'infrastructure'&gt; (1-256 bytes, ascii)<br/>	
-    &lt;leading: '0' or '1'&gt; (1 bytes integer)<br/>	
+    &lt;leader: '0' or '1'&gt; (1 bytes integer)<br/>	
     </td>
     <td>0</td>
   </tr>
