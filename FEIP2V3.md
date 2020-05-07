@@ -54,7 +54,7 @@ This transaction defines the properties, metadata and freedrive itself.
     OP_FALSE: '\x00'  (1 bytes, ascii)<br>
     OP_RETURN<sup>2</sup>: '\x6a' (1 bytes, ascii)<br>
    <b>data:</b></br>
-    &lt;file : ''&gt; (0 to ∞ bytes)<br/>	
+    &lt;file : &gt; (0 to ∞ bytes)<br/>	
     </td>
     <td>0</td>
   </tr>
