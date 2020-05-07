@@ -32,9 +32,9 @@ This transaction defines the properties, metadata and freedrive itself.
    'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    <b>metadata:</b></br>
-   &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>
+   &lt;protocol_type: 'FOCP'&gt; (4 bytes, ascii)<br/>
+   &lt;protocol_id: '\x01'&gt; (1 byte integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 byte integer)<br/>
    &lt;action: 'CREATE'&gt; (6 bytes, ascii)<br/>
    &lt;data_hash:&gt; (32 bytes, sha256(data))<br/>
    &lt;encrypt: '0' or '1'&gt; (1 byte integer)<br/>
@@ -94,10 +94,10 @@ This transaction defines the properties, metadata and freedrive itself.
    'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>
    <b>metadata: </b></br>
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
-   &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>
-&lt;action: 'UPDATE'&gt; (6 byte ascii)<BR>
+   &lt;protocol_type: 'FOCP'&gt; (4 bytes, ascii)<br/>
+   &lt;protocol_id: '\x01'&gt; (1 byte integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 byte integer)<br/>
+&lt;action: 'UPDATE'&gt; (6 bytes ascii)<BR>
 &lt;data_hash&gt; (32 bytes, sha256(data))<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
@@ -140,9 +140,9 @@ This transaction defines the properties, metadata and freedrive itself.
    'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    <b>metadata: </b><br/>
-   &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>   
+   &lt;protocol_type: 'FOCP'&gt; (4 byte, ascii)<br/>
+   &lt;protocol_id: '\x01'&gt; (1 byte integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 byte integer)<br/>   
 &lt;action: 'REMOVE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
@@ -176,9 +176,9 @@ PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(out
    'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 bytes, ascii)<br/>
    <b>metadata:</b><br/>
-   &lt;protocol_type: 'FOCP'&gt; (4 to 16 bytes, ascii)<br/>
-   &lt;protocol_id: '\x01'&gt; (1 to 16 bytes integer)<br/>
-   &lt;protocol_version: '\x03'&gt; (1 to 16 bytes integer)<br/>      
+   &lt;protocol_type: 'FOCP'&gt; (4 byte, ascii)<br/>
+   &lt;protocol_id: '\x01'&gt; (1 byte integer)<br/>
+   &lt;protocol_version: '\x03'&gt; (1 byte integer)<br/>      
 &lt;action: 'PRUNE'&gt; (6 bytes ascii)<BR>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
