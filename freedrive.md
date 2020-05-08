@@ -102,12 +102,14 @@ This transaction defines the metadata, and freedrive itself.
     <td>
     OP_FALSE: '\x00'  (1 byte, ascii)<br>
     OP_RETURN: '\x6a' (1 byte, ascii)<br>
-    <b>data:</b><br/>
+    <b>data<sup>2</sup>:</b><br/>
     &lt;data: modified data&gt; (0 to ∞ bytes)<br/>
     <td>0</td>
   </tr>
 
 </table>
+
+<sup>2. when length field is \x00 means not update,  length is \x01 and the data is \x00 means clear all data of the field.</sup>
 
 
 ### REMOVE - Remove Freedrive Transaction
