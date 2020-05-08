@@ -109,7 +109,7 @@ This transaction defines the metadata, and freedrive itself.
 
 </table>
 
-<sup>2. when length field is \x00 means not update,  length is \x01 and the data is \x00 means clear all data of the field.</sup>
+<sup>2. when length field is \x00 means not update,  length is \x01 and the data is ascii \x00 means clear all data of the field.</sup>
 
 
 ### REMOVE - Remove Freedrive Transaction
