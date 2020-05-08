@@ -47,7 +47,7 @@ Freedrive operate on non-standard UTXOs,which can include any state of your serv
  
 </table>
 
-<sup>1. The <b>Lockscript</b> can be any valid script by combination op_codes, which controls who can operate the data, by spend the utxo. </sup>  
+<sup>1. The <b>Lockingscript</b> can be any valid script by combination op_codes, which controls who can operate the data, by spend the utxo. </sup>  
 <sup>2. The OP_RETURN should be <b>metadata</b> for specific services. </sup>   
 <sup>3. The OP_FALSE OP_RETURN vout should be <b>data</b> itself for specific services. </sup>   
 
