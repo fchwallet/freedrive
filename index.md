@@ -1,4 +1,4 @@
-# Freedrive Protocol Specification
+# Freedrive Index Protocol Specification
 ### Specification version: 0.1
 ### Date published: May 09, 2020
 ### Contributors: CY_vpAv, pisa_n5oN
