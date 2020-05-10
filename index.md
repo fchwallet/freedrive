@@ -32,7 +32,7 @@ This transaction defines the metadata, and freedrive itself.
    'OP_DUP OP_HASH160 986b57ea26555d28c OP_EQUALVERIFY OP_CHECKSIG' (0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 byte, ascii)<br/>
    <b>metadata:</b><br/>
-   &lt;protocol_type: 'FOCP'&gt; (9 bytes, ascii)<br/>
+   &lt;protocol_type: 'FOCP'&gt; (4 bytes, ascii)<br/>
    &lt;protocol_id: '\x02'&gt; (1 byte integer)<br/>
    &lt;protocol_version: '\x01'&gt; (1 byte integer)<br/>
    &lt;action: 'CREATE'&gt; (6 bytes, ascii)<br/>
@@ -133,7 +133,7 @@ This transaction defines the metadata, and freedrive itself.
   'OP_DUP OP_HASH160 986b59fd99b555d28c OP_EQUALVERIFY OP_CHECKSIG'(0 to ∞ bytes)<br/>   
    OP_RETURN: '\x6a' (1 byte, ascii)<br/>
    <b>metadata:</b><br/>
-   &lt;protocol_type: 'FOCP'&gt; (4 byte, ascii)<br/>
+   &lt;protocol_type: 'FOCP'&gt; (4 bytes, ascii)<br/>
    &lt;protocol_id: '\x02'&gt; (1 to 16 bytes integer)<br/>
    &lt;protocol_version: '\x01'&gt; (1 byte integer)<br/>   
 &lt;action: 'REMOVE'&gt; (6 bytes ascii)<BR>
