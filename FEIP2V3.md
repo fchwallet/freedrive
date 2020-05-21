@@ -7,7 +7,7 @@
 
 ## Drive ID
 ```
-The freedrive is identified by sha256 the create freedrive transaction outputscript which can be regarded as `drive_id`.
+The freedrive is identified by sha256 the create freedrive transaction output(txid + n) which can be regarded as `drive_id`.
 ```
 
 ## Transaction Detail
