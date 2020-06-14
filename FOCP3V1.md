@@ -54,7 +54,7 @@ This transaction defines the properties, metadata and freedrive itself.
     OP_FALSE: '\x00'  (1 byte, ascii)<br>
     OP_RETURN<sup>2</sup>: '\x6a' (1 byte, ascii)<br>
    <b>data:</b></br>
-   &lt;author:&gt; (1 to 32 bytes, utf8)<br/>
+   &lt;author:&gt; (1 to 64 bytes, utf8)<br/>
    &lt;type:&gt; (1 to 48 bytes, ascii)<br/>
    &lt;title:&gt; (1 to 256 bytes, utf8)<br/>
    &lt;content:&gt; (1 to ∞ bytes )<br/>
@@ -89,6 +89,8 @@ This transaction defines the properties, metadata and freedrive itself.
    &lt;protocol_version: '\x01'&gt; (1 byte integer)<br/>
 &lt;action: 'UPDATE'&gt; (6 bytes ascii)<BR>
 &lt;data_hash&gt; (32 bytes, sha256(data))<BR>
+&lt;encrypt: '0' or '1'&gt; (1 byte integer)<br/>
+&lt;encrypted_pwd: (4 to 32 bytes ascii,if encrypt is true)<br/>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
   <td>>0</td>
@@ -135,6 +137,8 @@ This transaction defines the properties, metadata and freedrive itself.
    &lt;protocol_id: '\x03'&gt; (1 byte integer)<br/>
    &lt;protocol_version: '\x01'&gt; (1 byte integer)<br/>   
 &lt;action: 'REMOVE'&gt; (6 bytes ascii)<BR>
+&lt;encrypt: '0' or '1'&gt; (1 byte integer)<br/>
+&lt;encrypted_pwd: (4 to 32 bytes ascii,if encrypt is true)<br/>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
   <td>>0</td>
@@ -171,6 +175,8 @@ PRUNE indacate that the data(op_return) self correspnd to drive_id or sha256(out
    &lt;protocol_id: '\x03'&gt; (1 byte integer)<br/>
    &lt;protocol_version: '\x01'&gt; (1 byte integer)<br/>      
 &lt;action: 'PRUNE'&gt; (6 bytes ascii)<BR>
+&lt;encrypt: '0' or '1'&gt; (1 byte integer)<br/>
+&lt;encrypted_pwd: (4 to 32 bytes ascii,if encrypt is true)<br/>
 &lt;drive_id&gt; (32 bytes)<BR>
   </td>
   <td>>0</td>
